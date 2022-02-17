@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace XGame.Domain.Entites
 {
-    public class MeusJogos
+    public class MeuJogo
     {
         public Guid Id { get; set; }
         public JogoPlantaforma JogoPlantaforma { get; set; }

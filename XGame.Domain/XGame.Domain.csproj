@@ -41,7 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entites\Jogador.cs" />
+    <Compile Include="Entites\Jogo.cs" />
+    <Compile Include="Entites\JogoPlantaforma.cs" />
+    <Compile Include="Entites\MeusJogos.cs" />
+    <Compile Include="Entites\Plantaforma.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Diagrama\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

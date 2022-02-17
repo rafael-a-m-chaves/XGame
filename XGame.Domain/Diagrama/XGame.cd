@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="XGame.Domain.Entites.Plantaforma">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Entites\Plantaforma.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XGame.Domain.Entites.MeuJogo">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAEAAAABAAAAAAAAAAABAACAAAAAAIAA=</HashCode>
+      <FileName>Entites\MeuJogo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="JogoPlantaforma" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="XGame.Domain.Entites.JogoPlantaforma">
+    <Position X="6.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACABAAAAAAAAQAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entites\JogoPlantaforma.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Jogo" />
+      <Property Name="Plantaforma" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="XGame.Domain.Entites.Jogo">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAABgAAAAAAAAAIAAAAAQAAAAAAAAAEAAAQ=</HashCode>
+      <FileName>Entites\Jogo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XGame.Domain.Entites.Jogador">
+    <Position X="0.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAEACAAAAAAAAAAAAAAACAAAAAAAAAgAAACAAA=</HashCode>
+      <FileName>Entites\Jogador.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
